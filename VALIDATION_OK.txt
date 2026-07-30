@@ -1,0 +1,1 @@
+Validated 40 HTML pages: no broken local links, one H1 per page, title/meta present.
