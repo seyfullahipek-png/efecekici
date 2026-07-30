@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kocalaryolyardim.example/sitemap.xml
+Sitemap: https://seyfullahipek-png.github.io/efecekici/sitemap.xml

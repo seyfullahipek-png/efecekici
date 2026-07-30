@@ -1,0 +1,11 @@
+KOCALAR YOL YARDIM - v2.1 DÜZELTME NOTLARI
+
+1. Mobil hero kontrast/z-index sorunu düzeltildi.
+2. Mobil hero görsel odağı çekici aracına kaydırıldı.
+3. Mobilde yinelenen yuvarlak telefon/WhatsApp butonları gizlendi; alt çağrı çubuğu korundu.
+4. Footer mobil boşluk ve tipografi ayarları iyileştirildi.
+5. GitHub Pages alt dizin canonical, schema, sitemap ve manifest adresleri düzeltildi.
+6. CSS/JS önbellek kırma parametresi eklendi.
+7. .nojekyll eklendi.
+
+Canlı test adresi: https://seyfullahipek-png.github.io/efecekici/

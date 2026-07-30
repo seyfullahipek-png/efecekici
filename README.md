@@ -11,7 +11,7 @@
 1. ZIP dosyasını açın.
 2. Tüm dosyaları hosting ana dizinine (public_html) yükleyin.
 3. SSL aktif olduğundan emin olun.
-4. `kocalaryolyardim.example` ifadesini satın aldığınız gerçek alan adıyla tüm dosyalarda değiştirin.
+4. Özel alan adı satın aldığınızda `seyfullahipek-png.github.io/efecekici` adresini gerçek alan adınızla tüm dosyalarda değiştirin.
 5. Google Search Console'a `sitemap.xml` gönderin.
 6. Google İşletme Profili harita bağlantısını `iletisim.html` içindeki harita alanına ekleyin.
 
@@ -32,3 +32,16 @@
 
 ## Performans notu
 Bootstrap ve Bootstrap Icons CDN üzerinden yüklenir. En yüksek PageSpeed sonucu için bu dosyalar daha sonra yerel olarak barındırılabilir. Skorlar hosting, CDN, önbellek ve gerçek domain ayarlarına göre değişir; 90/100 veya 100/100 kesin olarak garanti edilemez.
+
+## GitHub Pages v2.1 düzeltmeleri
+
+Bu paket `https://seyfullahipek-png.github.io/efecekici/` alt yoluna göre düzenlenmiştir.
+
+- Hero görselinin mobilde yalnızca ağaç göstermesine neden olan konumlandırma düzeltildi.
+- Koyu katmanın görselin arkasında kalmasına neden olan z-index sorunu düzeltildi.
+- Mobilde sabit alt çağrı çubuğu varken sağdaki yuvarlak butonlar gizlendi.
+- Mobil footer daha kompakt hale getirildi.
+- Canonical, Open Graph, Schema ve sitemap alanlarındaki geçici `.example` adresleri canlı GitHub Pages adresiyle değiştirildi.
+- `.nojekyll` dosyası ve önbellek kırıcı `?v=2.1` sürüm parametreleri eklendi.
+
+Özel alan adı bağlandığında tüm `seyfullahipek-png.github.io/efecekici` adreslerini gerçek alan adıyla topluca değiştirin. GitHub Pages `.htaccess` çalıştırmaz; `.htaccess` yalnızca Apache/cPanel barındırmada kullanılır.
